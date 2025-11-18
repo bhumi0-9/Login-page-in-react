@@ -1,0 +1,111 @@
+.b1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #595959 0%, #b298cd 100%);
+}
+
+.F1 {
+  background: transparent;
+  padding: 40px;
+  border-radius: 80px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+.F1 h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 28px;
+}
+
+.F1 p {
+  text-align: center;
+  color: #140e0e;
+  margin-bottom: 30px;
+}
+
+.F2 {
+  margin-bottom: 20px;
+  
+}
+
+.F2 label {
+  display: block;
+  margin-bottom: 5px;
+  color: #00000094;
+  font-weight: 500;
+}
+
+.F2 input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.F2 input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.F3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.F3 label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #666;
+}
+
+.F3 a {
+  color: #002eff;
+  text-decoration: none;
+}
+
+.F3 a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #c3ceff 0%, #65507b 100%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.switch {
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+}
+
+.switch span {
+  color: #002eff;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.switch span:hover {
+  text-decoration: underline;
+}
